@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace IntroductionToCS.HomeWorks.SecondHomeWork
 {
-    public class SimpleAlgorithms : BaseWork
+    public class SimpleAlgorithmsHomeWork : BaseWork
     {
-        public SimpleAlgorithms()
+        public SimpleAlgorithmsHomeWork()
         {
             Title = "Домашняя работа по лекции 2 \"Простые Алгоритмы\"";
             Lessons.Add(new MultiplicityOfTheNumber());

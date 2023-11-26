@@ -71,7 +71,7 @@
     <Compile Include="HomeWorks\SecondHomeWork\Lessons\DigitsNumbers.cs" />
     <Compile Include="HomeWorks\SecondHomeWork\Lessons\MultiplicityOfTheNumber.cs" />
     <Compile Include="HomeWorks\SecondHomeWork\Lessons\TheLargestDigitOfTheNumber.cs" />
-    <Compile Include="HomeWorks\SecondHomeWork\SimpleAlgorithms.cs" />
+    <Compile Include="HomeWorks\SecondHomeWork\SimpleAlgorithmsHomeWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

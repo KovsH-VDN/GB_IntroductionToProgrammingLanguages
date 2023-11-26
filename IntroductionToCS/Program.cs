@@ -13,7 +13,7 @@ namespace IntroductionToCS
 
         private void Start()
         {
-            IWork work = new SimpleAlgorithms();
+            IWork work = new SimpleAlgorithmsHomeWork();
             while(work.IsWorking)
             {
                 work.ShowLessons();
