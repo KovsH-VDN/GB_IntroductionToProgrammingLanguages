@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5FBEE99-05C5-4C74-A0F8-7FD8E57B0CB3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>IntroductionToCS</RootNamespace>
+    <AssemblyName>IntroductionToCS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassWorks\Introduction\CheckingTheSquare.cs" />
+    <Compile Include="ClassWorks\Introduction\DaysOfWeek.cs" />
+    <Compile Include="ClassWorks\Introduction\FromMinusNToN.cs" />
+    <Compile Include="ClassWorks\Introduction\HellowWorld.cs" />
+    <Compile Include="ClassWorks\Introduction\LastNumber.cs" />
+    <Compile Include="ClassWorks\Introduction\StartWork.cs" />
+    <Compile Include="ClassWorks\Introduction\TheSquareOfTheNumber.cs" />
+    <Compile Include="ClassWorks\SecondClassWork\Lessons\DeletingTheSecondDigitOfANumber.cs" />
+    <Compile Include="ClassWorks\SecondClassWork\Lessons\MultiplicityOfNumbers.cs" />
+    <Compile Include="ClassWorks\SecondClassWork\Lessons\OutputOfTheSecondDigitOfTheNumber.cs" />
+    <Compile Include="ClassWorks\SecondClassWork\Lessons\OutputOfTheThirdDigit.cs" />
+    <Compile Include="ClassWorks\SecondClassWork\SimpleAlgorithms.cs" />
+    <Compile Include="ClassWorks\ThirdClassWork\Arrays.cs" />
+    <Compile Include="ClassWorks\ThirdClassWork\Lessons\ArrayOfDigitsOfANumber.cs" />
+    <Compile Include="ClassWorks\ThirdClassWork\Lessons\ReplacingArrayElements.cs" />
+    <Compile Include="ClassWorks\ThirdClassWork\Lessons\SearchingForANumberInAnArray.cs" />
+    <Compile Include="ClassWorks\ThirdClassWork\Lessons\TheProductOfPairsOfNumbers.cs" />
+    <Compile Include="Common\BaseWork.cs" />
+    <Compile Include="Common\ILesson.cs" />
+    <Compile Include="Common\IWork.cs" />
+    <Compile Include="HomeWorks\FirstHomeWork\Answer.cs" />
+    <Compile Include="HomeWorks\FirstHomeWork\Answer2.cs" />
+    <Compile Include="HomeWorks\FirstHomeWork\Answer3.cs" />
+    <Compile Include="HomeWorks\FirstHomeWork\Answer4.cs" />
+    <Compile Include="HomeWorks\SecondHomeWork\Lessons\CoordinateQuarter.cs" />
+    <Compile Include="HomeWorks\SecondHomeWork\Lessons\DigitsNumbers.cs" />
+    <Compile Include="HomeWorks\SecondHomeWork\Lessons\MultiplicityOfTheNumber.cs" />
+    <Compile Include="HomeWorks\SecondHomeWork\Lessons\TheLargestDigitOfTheNumber.cs" />
+    <Compile Include="HomeWorks\SecondHomeWork\SimpleAlgorithms.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
