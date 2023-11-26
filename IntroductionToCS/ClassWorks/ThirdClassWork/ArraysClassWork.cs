@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace IntroductionToCS.ClassWorks.ThirdClassWork
 {
-    internal class Arrays : BaseWork, IWork
+    internal class ArraysClassWork : BaseWork, IWork
     {
-        public Arrays()
+        public ArraysClassWork()
         {
             Title = "Массивы";
 

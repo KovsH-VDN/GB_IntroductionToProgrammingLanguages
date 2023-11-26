@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace IntroductionToCS.ClassWorks.Introduction
 {
-    public class StartWork : BaseWork, IWork
+    public class StartClassWork : BaseWork, IWork
     {
-        public StartWork() : base()
+        public StartClassWork() : base()
         {
             Title = "Вступительный семинар по знакосмтву с C#";
             Lessons.Add(new HellowWorld());

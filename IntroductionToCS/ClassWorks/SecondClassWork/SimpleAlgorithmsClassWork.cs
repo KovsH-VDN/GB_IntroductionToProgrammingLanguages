@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace IntroductionToCS.ClassWorks.SecondClassWork
 {
-    public class SimpleAlgorithms : BaseWork, IWork
+    public class SimpleAlgorithmsClassWork : BaseWork, IWork
     {
-        public SimpleAlgorithms()
+        public SimpleAlgorithmsClassWork()
         {
             Title = "Второй семинар: Простые алгоритмы.";
             Lessons.Add(new DeletingTheSecondDigitOfANumber());
