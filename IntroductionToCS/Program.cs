@@ -13,6 +13,11 @@ namespace IntroductionToCS
 
         private void Start()
         {
+            // первый семинар - StartClassWork
+            // второй семинар - SimpleAlgorithmsClassWork
+            // третий семинар - ArraysClassWork
+            // вторая дз - SimpleAlgorithmsHomeWork
+
             IWork work = new SimpleAlgorithmsHomeWork();
             while(work.IsWorking)
             {
