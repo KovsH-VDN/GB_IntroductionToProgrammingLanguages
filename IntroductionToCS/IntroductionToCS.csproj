@@ -48,14 +48,14 @@
     <Compile Include="ClassWorks\Introduction\FromMinusNToN.cs" />
     <Compile Include="ClassWorks\Introduction\HellowWorld.cs" />
     <Compile Include="ClassWorks\Introduction\LastNumber.cs" />
-    <Compile Include="ClassWorks\Introduction\StartWork.cs" />
+    <Compile Include="ClassWorks\Introduction\StartClassWork.cs" />
     <Compile Include="ClassWorks\Introduction\TheSquareOfTheNumber.cs" />
     <Compile Include="ClassWorks\SecondClassWork\Lessons\DeletingTheSecondDigitOfANumber.cs" />
     <Compile Include="ClassWorks\SecondClassWork\Lessons\MultiplicityOfNumbers.cs" />
     <Compile Include="ClassWorks\SecondClassWork\Lessons\OutputOfTheSecondDigitOfTheNumber.cs" />
     <Compile Include="ClassWorks\SecondClassWork\Lessons\OutputOfTheThirdDigit.cs" />
-    <Compile Include="ClassWorks\SecondClassWork\SimpleAlgorithms.cs" />
-    <Compile Include="ClassWorks\ThirdClassWork\Arrays.cs" />
+    <Compile Include="ClassWorks\SecondClassWork\SimpleAlgorithmsClassWork.cs" />
+    <Compile Include="ClassWorks\ThirdClassWork\ArraysClassWork.cs" />
     <Compile Include="ClassWorks\ThirdClassWork\Lessons\ArrayOfDigitsOfANumber.cs" />
     <Compile Include="ClassWorks\ThirdClassWork\Lessons\ReplacingArrayElements.cs" />
     <Compile Include="ClassWorks\ThirdClassWork\Lessons\SearchingForANumberInAnArray.cs" />
