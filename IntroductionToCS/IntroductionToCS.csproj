@@ -72,6 +72,11 @@
     <Compile Include="HomeWorks\SecondHomeWork\Lessons\MultiplicityOfTheNumber.cs" />
     <Compile Include="HomeWorks\SecondHomeWork\Lessons\TheLargestDigitOfTheNumber.cs" />
     <Compile Include="HomeWorks\SecondHomeWork\SimpleAlgorithmsHomeWork.cs" />
+    <Compile Include="HomeWorks\ThirdHomeWork\ArrayHomeWork.cs" />
+    <Compile Include="HomeWorks\ThirdHomeWork\Lessons\ArrayOfDigitsFromTheNumber.cs" />
+    <Compile Include="HomeWorks\ThirdHomeWork\Lessons\EvenNumbers.cs" />
+    <Compile Include="HomeWorks\ThirdHomeWork\Lessons\NumbersInTheRange.cs" />
+    <Compile Include="HomeWorks\ThirdHomeWork\Lessons\TheDifferenceBetweenTheMaxAndMinNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

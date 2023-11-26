@@ -2,6 +2,7 @@
 using IntroductionToCS.ClassWorks.ThirdClassWork;
 using IntroductionToCS.Common;
 using IntroductionToCS.HomeWorks.SecondHomeWork;
+using IntroductionToCS.HomeWorks.ThirdHomeWork;
 using System;
 using System.Linq;
 
@@ -17,8 +18,9 @@ namespace IntroductionToCS
             // второй семинар - SimpleAlgorithmsClassWork
             // третий семинар - ArraysClassWork
             // вторая дз - SimpleAlgorithmsHomeWork
+            // третье дз - ArrayHomeWork
 
-            IWork work = new SimpleAlgorithmsHomeWork();
+            IWork work = new ArrayHomeWork();
             while(work.IsWorking)
             {
                 work.ShowLessons();
