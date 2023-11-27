@@ -1,4 +1,5 @@
 ﻿using IntroductionToCS.ClassWorks.Introduction;
+using IntroductionToCS.ClassWorks.SecondClassWork;
 using IntroductionToCS.ClassWorks.ThirdClassWork;
 using IntroductionToCS.Common;
 using IntroductionToCS.HomeWorks.SecondHomeWork;
