@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassWorks\FourthClassWork\Functions.cs" />
+    <Compile Include="ClassWorks\FourthClassWork\Lessons\PrimeNumbersInTheArray.cs" />
+    <Compile Include="ClassWorks\FourthClassWork\Lessons\SecondLesson.cs" />
     <Compile Include="ClassWorks\Introduction\CheckingTheSquare.cs" />
     <Compile Include="ClassWorks\Introduction\DaysOfWeek.cs" />
     <Compile Include="ClassWorks\Introduction\FromMinusNToN.cs" />
@@ -60,6 +63,7 @@
     <Compile Include="ClassWorks\ThirdClassWork\Lessons\ReplacingArrayElements.cs" />
     <Compile Include="ClassWorks\ThirdClassWork\Lessons\SearchingForANumberInAnArray.cs" />
     <Compile Include="ClassWorks\ThirdClassWork\Lessons\TheProductOfPairsOfNumbers.cs" />
+    <Compile Include="Common\ArrayHelper.cs" />
     <Compile Include="Common\BaseWork.cs" />
     <Compile Include="Common\ILesson.cs" />
     <Compile Include="Common\IWork.cs" />

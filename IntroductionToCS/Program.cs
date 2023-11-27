@@ -1,4 +1,5 @@
-﻿using IntroductionToCS.ClassWorks.Introduction;
+﻿using IntroductionToCS.ClassWorks.FourthClassWork;
+using IntroductionToCS.ClassWorks.Introduction;
 using IntroductionToCS.ClassWorks.SecondClassWork;
 using IntroductionToCS.ClassWorks.ThirdClassWork;
 using IntroductionToCS.Common;
@@ -20,8 +21,9 @@ namespace IntroductionToCS
             // третий семинар - ArraysClassWork
             // вторая дз - SimpleAlgorithmsHomeWork
             // третье дз - ArrayHomeWork
+            // четвертый семинар - Functions
 
-            IWork work = new ArrayHomeWork();
+            IWork work = new Functions();
             while(work.IsWorking)
             {
                 work.ShowLessons();
