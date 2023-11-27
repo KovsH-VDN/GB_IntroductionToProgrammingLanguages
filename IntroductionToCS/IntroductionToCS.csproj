@@ -65,6 +65,7 @@
     <Compile Include="ClassWorks\ThirdClassWork\Lessons\TheProductOfPairsOfNumbers.cs" />
     <Compile Include="Common\ArrayHelper.cs" />
     <Compile Include="Common\BaseWork.cs" />
+    <Compile Include="Common\ConsoleHelper.cs" />
     <Compile Include="Common\ILesson.cs" />
     <Compile Include="Common\IWork.cs" />
     <Compile Include="HomeWorks\FirstHomeWork\Answer.cs" />
