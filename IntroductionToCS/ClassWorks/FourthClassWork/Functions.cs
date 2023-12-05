@@ -14,6 +14,7 @@ namespace IntroductionToCS.ClassWorks.FourthClassWork
         {
             Title = "Функции";
             Lessons.Add(new PrimeNumbersInTheArray());
+            Lessons.Add(new SearchingForElementsInAnArray());
         }
     }
 }

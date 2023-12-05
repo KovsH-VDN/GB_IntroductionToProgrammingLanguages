@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="ClassWorks\FourthClassWork\Functions.cs" />
     <Compile Include="ClassWorks\FourthClassWork\Lessons\PrimeNumbersInTheArray.cs" />
-    <Compile Include="ClassWorks\FourthClassWork\Lessons\SecondLesson.cs" />
+    <Compile Include="ClassWorks\FourthClassWork\Lessons\SearchingForElementsInAnArray.cs" />
     <Compile Include="ClassWorks\Introduction\CheckingTheSquare.cs" />
     <Compile Include="ClassWorks\Introduction\DaysOfWeek.cs" />
     <Compile Include="ClassWorks\Introduction\FromMinusNToN.cs" />
@@ -72,6 +72,10 @@
     <Compile Include="HomeWorks\FirstHomeWork\Answer2.cs" />
     <Compile Include="HomeWorks\FirstHomeWork\Answer3.cs" />
     <Compile Include="HomeWorks\FirstHomeWork\Answer4.cs" />
+    <Compile Include="HomeWorks\FourthHomeWork\FunctionsHomeWork.cs" />
+    <Compile Include="HomeWorks\FourthHomeWork\Lessons\InfiniteNumbers.cs" />
+    <Compile Include="HomeWorks\FourthHomeWork\Lessons\ReverceArray.cs" />
+    <Compile Include="HomeWorks\FourthHomeWork\Lessons\ThreeDigitNumbers.cs" />
     <Compile Include="HomeWorks\SecondHomeWork\Lessons\CoordinateQuarter.cs" />
     <Compile Include="HomeWorks\SecondHomeWork\Lessons\DigitsNumbers.cs" />
     <Compile Include="HomeWorks\SecondHomeWork\Lessons\MultiplicityOfTheNumber.cs" />

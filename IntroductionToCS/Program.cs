@@ -1,8 +1,10 @@
-﻿using IntroductionToCS.ClassWorks.FourthClassWork;
+﻿
+using IntroductionToCS.ClassWorks.FourthClassWork;
 using IntroductionToCS.ClassWorks.Introduction;
 using IntroductionToCS.ClassWorks.SecondClassWork;
 using IntroductionToCS.ClassWorks.ThirdClassWork;
 using IntroductionToCS.Common;
+using IntroductionToCS.HomeWorks.FourthHomeWork;
 using IntroductionToCS.HomeWorks.SecondHomeWork;
 using IntroductionToCS.HomeWorks.ThirdHomeWork;
 using System;
@@ -16,14 +18,7 @@ namespace IntroductionToCS
 
         private void Start()
         {
-            // первый семинар - StartClassWork
-            // второй семинар - SimpleAlgorithmsClassWork
-            // третий семинар - ArraysClassWork
-            // вторая дз - SimpleAlgorithmsHomeWork
-            // третье дз - ArrayHomeWork
-            // четвертый семинар - Functions
-
-            IWork work = new Functions();
+            IWork work = new FunctionsHomeWork();
             while(work.IsWorking)
             {
                 work.ShowLessons();
