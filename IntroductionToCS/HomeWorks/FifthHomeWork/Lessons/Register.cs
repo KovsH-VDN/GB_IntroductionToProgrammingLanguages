@@ -9,13 +9,15 @@ namespace IntroductionToCS.HomeWorks.FifthHomeWork.Lessons
 {
     class Register : ILesson
     {
-        public bool CanRun => false;
+        public bool CanRun => true;
 
         public string Title => "Регистр";
 
         public void Run()
         {
-
+            string str = "dhGF haADtIdAsGDY ASdhhsdgaGDAy";
+            Console.WriteLine(str);
+            Console.WriteLine(str.ToLower());
         }
     }
 }
