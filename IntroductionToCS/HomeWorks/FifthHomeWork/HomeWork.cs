@@ -13,6 +13,7 @@ namespace IntroductionToCS.HomeWorks.FifthHomeWork
         public HomeWork()
         {
             Lessons.Add(new IndexesinArray());
+            Lessons.Add(new Swap());
         }
     }
 }
