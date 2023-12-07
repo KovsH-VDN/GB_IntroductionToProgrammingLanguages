@@ -4,6 +4,7 @@ using IntroductionToCS.ClassWorks.Introduction;
 using IntroductionToCS.ClassWorks.SecondClassWork;
 using IntroductionToCS.ClassWorks.ThirdClassWork;
 using IntroductionToCS.Common;
+using IntroductionToCS.HomeWorks.FifthHomeWork;
 using IntroductionToCS.HomeWorks.FourthHomeWork;
 using IntroductionToCS.HomeWorks.SecondHomeWork;
 using IntroductionToCS.HomeWorks.ThirdHomeWork;
@@ -18,7 +19,7 @@ namespace IntroductionToCS
 
         private void Start()
         {
-            IWork work = new FunctionsHomeWork();
+            IWork work = new TwoDimensionalArrays();
             while(work.IsWorking)
             {
                 work.ShowLessons();
