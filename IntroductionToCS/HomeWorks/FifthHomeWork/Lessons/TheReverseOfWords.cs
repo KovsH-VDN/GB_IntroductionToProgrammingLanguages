@@ -9,13 +9,17 @@ namespace IntroductionToCS.HomeWorks.FifthHomeWork.Lessons
 {
     class TheReverseOfWords : ILesson
     {
-        public bool CanRun => false;
+        public bool CanRun => true;
 
         public string Title => "Инверсия слов";
 
         public void Run()
         {
+            string str = Console.ReadLine();
 
+            var strArray = str.Split(' ');
+            var newStr = string.Join(" ", strArray.Reverse());
+            Console.WriteLine(newStr);
         }
     }
 }

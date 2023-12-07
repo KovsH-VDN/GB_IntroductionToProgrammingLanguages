@@ -19,6 +19,7 @@ namespace IntroductionToCS.HomeWorks.FifthHomeWork.Lessons
 
             int take = str.Length / 2;
             int skip = take + (str.Length % 2 == 0 ? 0 : 1);
+
             var leftStr = new string(str.Take(take).ToArray());
             var rightStr = new string(str.Skip(skip).Take(take).Reverse().ToArray());
 
