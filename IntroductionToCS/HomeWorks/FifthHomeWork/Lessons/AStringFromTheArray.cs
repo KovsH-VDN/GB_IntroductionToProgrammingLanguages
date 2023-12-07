@@ -15,7 +15,16 @@ namespace IntroductionToCS.HomeWorks.FifthHomeWork.Lessons
 
         public void Run()
         {
+            char[,] symbols = new char[,]
+            {
+                {'a', 'b', 'c' },
+                {'d', 'i' ,'f' },
+            };
 
+            string arrayToString = new string(symbols.Cast<char>().ToArray());
+
+            Console.WriteLine(arrayToString);
         }
+
     }
 }

@@ -16,6 +16,7 @@ namespace IntroductionToCS.HomeWorks.FifthHomeWork
             Lessons.Add(new AStringFromTheArray());
             Lessons.Add(new Register());
             Lessons.Add(new Palindrome());
+            Lessons.Add(new TheReverseOfWords());
         }
     }
 }

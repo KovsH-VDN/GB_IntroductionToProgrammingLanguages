@@ -9,7 +9,7 @@ namespace IntroductionToCS.HomeWorks.FifthHomeWork.Lessons
 {
     class Register : ILesson
     {
-        public bool CanRun => true;
+        public bool CanRun => false;
 
         public string Title => "Регистр";
 
