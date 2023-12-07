@@ -68,6 +68,11 @@
     <Compile Include="Common\ConsoleHelper.cs" />
     <Compile Include="Common\ILesson.cs" />
     <Compile Include="Common\IWork.cs" />
+    <Compile Include="HomeWorks\FifthHomeWork\Lessons\AStringFromTheArray.cs" />
+    <Compile Include="HomeWorks\FifthHomeWork\Lessons\Palindrome.cs" />
+    <Compile Include="HomeWorks\FifthHomeWork\Lessons\Register.cs" />
+    <Compile Include="HomeWorks\FifthHomeWork\Lessons\TheReverseOfWords.cs" />
+    <Compile Include="HomeWorks\FifthHomeWork\TwoDimensionalArrays.cs" />
     <Compile Include="HomeWorks\FirstHomeWork\Answer.cs" />
     <Compile Include="HomeWorks\FirstHomeWork\Answer2.cs" />
     <Compile Include="HomeWorks\FirstHomeWork\Answer3.cs" />
