@@ -15,8 +15,8 @@ namespace IntroductionToCS.HomeWorks.FifthHomeWork.Lessons
 
         public void Run()
         {
-            string str = "dhGF haADtIdAsGDY ASdhhsdgaGDAy";
-            Console.WriteLine(str);
+            string str = Console.ReadLine();
+
             Console.WriteLine(str.ToLower());
         }
     }
