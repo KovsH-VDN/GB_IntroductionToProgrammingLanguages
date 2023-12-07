@@ -13,21 +13,15 @@ namespace IntroductionToCS.Common
             Console.WriteLine($"Введите {title}");
             return Console.ReadLine();
         }
-        public static int GetInt32()
+        public static bool TryGetInt32(out int number)
         {
             var data = GetString("целое число");
-            if(!int.TryParse(data, out int number))
-                return number;
-
-            return -1;
+            return int.TryParse(data, out number);
         }
-        public static long GetInt64()
+        public static bool TryGetInt64(out ulong number)
         {
-            var data = GetString("целое число");
-            if(!long.TryParse(data, out long number))
-                return number;
-
-            return -1;
+            var data = GetString("положительное целое число");
+            return ulong.TryParse(data, out number);
         }
         public static double GetDouble()
         {

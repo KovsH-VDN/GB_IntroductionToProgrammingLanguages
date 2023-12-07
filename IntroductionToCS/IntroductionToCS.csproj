@@ -58,6 +58,8 @@
     <Compile Include="ClassWorks\SecondClassWork\Lessons\OutputOfTheSecondDigitOfTheNumber.cs" />
     <Compile Include="ClassWorks\SecondClassWork\Lessons\OutputOfTheThirdDigit.cs" />
     <Compile Include="ClassWorks\SecondClassWork\SimpleAlgorithmsClassWork.cs" />
+    <Compile Include="ClassWorks\SevenClassWork\Lessons\SumNumbers.cs" />
+    <Compile Include="ClassWorks\SevenClassWork\Recursion.cs" />
     <Compile Include="ClassWorks\ThirdClassWork\ArraysClassWork.cs" />
     <Compile Include="ClassWorks\ThirdClassWork\Lessons\ArrayOfDigitsOfANumber.cs" />
     <Compile Include="ClassWorks\ThirdClassWork\Lessons\ReplacingArrayElements.cs" />
@@ -72,6 +74,10 @@
     <Compile Include="HomeWorks\FifthHomeWork\Lessons\IndexesinArray.cs" />
     <Compile Include="HomeWorks\FifthHomeWork\Lessons\MinSum.cs" />
     <Compile Include="HomeWorks\FifthHomeWork\Lessons\Swap.cs" />
+    <Compile Include="HomeWorks\SevenHomeWork\Lessons\Akkerman.cs" />
+    <Compile Include="HomeWorks\SevenHomeWork\Lessons\OutputFromTheEnd.cs" />
+    <Compile Include="HomeWorks\SevenHomeWork\Lessons\RangeNumbers.cs" />
+    <Compile Include="HomeWorks\SevenHomeWork\RecursionHomeWork.cs" />
     <Compile Include="HomeWorks\SixHomeWork\Lessons\AStringFromTheArray.cs" />
     <Compile Include="HomeWorks\SixHomeWork\Lessons\Palindrome.cs" />
     <Compile Include="HomeWorks\SixHomeWork\Lessons\Register.cs" />
