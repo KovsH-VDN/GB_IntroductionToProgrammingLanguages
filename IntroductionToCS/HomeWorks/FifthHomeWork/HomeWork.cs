@@ -14,6 +14,7 @@ namespace IntroductionToCS.HomeWorks.FifthHomeWork
         {
             Lessons.Add(new IndexesinArray());
             Lessons.Add(new Swap());
+            Lessons.Add(new MinSum());
         }
     }
 }

@@ -70,6 +70,7 @@
     <Compile Include="Common\IWork.cs" />
     <Compile Include="HomeWorks\FifthHomeWork\HomeWork.cs" />
     <Compile Include="HomeWorks\FifthHomeWork\Lessons\IndexesinArray.cs" />
+    <Compile Include="HomeWorks\FifthHomeWork\Lessons\MinSum.cs" />
     <Compile Include="HomeWorks\FifthHomeWork\Lessons\Swap.cs" />
     <Compile Include="HomeWorks\SixHomeWork\Lessons\AStringFromTheArray.cs" />
     <Compile Include="HomeWorks\SixHomeWork\Lessons\Palindrome.cs" />
