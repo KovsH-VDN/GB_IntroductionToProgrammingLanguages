@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace IntroductionToCS.HomeWorks.FifthHomeWork
 {
-    class TwoDimensionalArrays : BaseWork
+    class Strings : BaseWork
     {
-        public TwoDimensionalArrays()
+        public Strings()
         {
             Title = "Домашняя работа №5: \"Массивы и строки\"";
             Lessons.Add(new AStringFromTheArray());

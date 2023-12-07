@@ -19,7 +19,7 @@ namespace IntroductionToCS
 
         private void Start()
         {
-            IWork work = new TwoDimensionalArrays();
+            IWork work = new HomeWork();
             while(work.IsWorking)
             {
                 work.ShowLessons();
